@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Chetak Automobiles LLP — Authorized TVS Two Wheeler Showroom. Explore Apache, Raider, Jupiter, Ntorq, iQube and more." />
+<meta property="og:title" content="Chetak Automobiles LLP — Authorized TVS Showroom" />
+<meta property="og:description" content="Explore Apache, Raider, Jupiter, Ntorq, iQube and more at Chetak Automobiles LLP." />
+<!-- <meta property="og:image" content="https://yourdomain.com/images/preview.jpg" /> -->
+<!-- <meta property="og:url" content="https://yourdomain.com/" /> -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Chetak Automobiles LLP" />
+<meta name="theme-color" content="#0b0b0f" />
+<title>Chetak Automobiles LLP — Authorized TVS Showroom</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="images/logo/Tvsfavicon.ico" />
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@0.453.0/font/lucide.css" />
+
+<!-- AOS animations -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+<!-- Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="style.css" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- SEO: JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"AutomotiveBusiness",
+  "name":"Chetak Automobiles LLP",
+  "description":"Authorized TVS Two Wheeler Showroom",
+  "telephone":["+91-9228009191","+91-9998988845"],
+  "email":"Chetaktvs@gmail.com"
+}
+</script>
+<style>
+  .feature-list{
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+  margin-top:40px;
+}
+
+.feature-card{
+  display:flex;
+  align-items:flex-start;
+  gap:18px;
+  padding:20px;
+  border-radius:24px;
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.06);
+  transition:0.35s ease;
+}
+
+.feature-card:hover{
+  transform:translateY(-5px);
+  background:rgba(255,255,255,0.05);
+  border-color:rgba(255,90,90,0.3);
+}
+
+.feature-icon{
+  width:68px;
+  height:68px;
+  min-width:68px;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.08);
+}
+
+.feature-icon i{
+  color:#ff3131;
+  font-size:30px;
+}
+
+.feature-text h3{
+  margin-bottom:8px;
+  font-size:24px;
+  font-weight:700;
+  color:#fff;
+}
+
+.feature-text p{
+  margin:0;
+  color:#a9acbb;
+  line-height:1.7;
+  font-size:17px;
+}
+.review-wrap{
+  padding:25px;
+  border-radius:30px;
+  overflow:hidden;
+}
+
+.reviews-copy{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.review-stats{
+  display:flex;
+  gap:18px;
+  margin-top:35px;
+  flex-wrap:wrap;
+}
+
+.review-stat{
+  padding:20px 24px;
+  border-radius:20px;
+  min-width:140px;
+  text-align:center;
+}
+
+.review-stat h3{
+  font-size:32px;
+  margin-bottom:6px;
+  color:#fff;
+}
+
+.review-stat p{
+  color:var(--muted);
+  margin:0;
+}
+.brand-logo{
+  width:100px;
+  height:auto;
+  object-fit:contain;
+}
+
+.brand-text{
+  font-size:1.15rem;
+  font-weight:800;
+  color:#fff;
+  line-height:1.1;
+  text-transform:uppercase;
+  letter-spacing:.30em;
+}
+
+.brand-text em{
+  color:#fff;
+  font-size:.78rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+@media(max-width:900px){
+
+  .review-stats{
+    justify-content:center;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header id="navbar" class="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="brand">
+      <img src="images/logo/tvs-logo.png" alt="Chetak Automobiles Logo" class="brand-logo">
+      <span class="brand-text">Chetak <em>Automobiles LLP</em></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#vehicles">Vehicles</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Book Inquiry</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-particles" id="particles"></div>
+
+  <div class="container hero-content">
+    <span class="eyebrow" data-aos="fade-up">Authorized TVS Dealer</span>
+    <h1 data-aos="fade-up" data-aos-delay="100">
+      Ride the <span class="grad">Future</span><br/>Chetak Automobiles LLP
+    </h1>
+    <p data-aos="fade-up" data-aos-delay="200">
+      Authorized TVS Two Wheeler Showroom — discover the latest range of Apache, Raider, Jupiter, Ntorq, iQube and more, delivered with world-class service.
+    </p>
+    <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+      <a href="#vehicles" class="btn btn-primary ripple">Explore Vehicles <i class="ri"></i></a>
+      <a href="#contact" class="btn btn-ghost ripple">Book Inquiry</a>
+    </div>
+
+    <div class="hero-meta" data-aos="fade-up" data-aos-delay="400">
+      <div><strong>20+</strong><span>Years of Trust</span></div>
+      <div><strong>10K+</strong><span>Happy Riders</span></div>
+      <div><strong>100+</strong><span>TVS Models</span></div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-down" aria-label="Scroll">
+    <span></span>
+    <p>Scroll</p>
+  </a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section about">
+  <div class="container grid-2">
+    <div class="about-media" data-aos="fade-right">
+      <div class="about-img">
+        <!-- Replace with showroom image -->
+        <img loading="lazy" src="images/bogy/banner.png" alt="TVS Showroom" />
+      </div>
+      <div class="about-badge glass">
+        <strong>Since 2004</strong>
+        <span>Authorized TVS Dealer</span>
+      </div>
+    </div>
+
+    <div class="about-copy" data-aos="fade-left">
+      <span class="eyebrow">About Us</span>
+      <h2>Driven by Passion. <span class="grad">Trusted by Thousands.</span></h2>
+      <p>
+        Chetak Automobiles LLP is an authorized TVS Motor dealer committed to delivering a premium ownership experience. From the legendary Apache series to the futuristic iQube, we bring the full TVS lineup under one roof — backed by certified technicians, genuine parts, and end-to-end after-sales care.
+      </p>
+
+      <div class="stats">
+        <div class="stat"><h3 class="counter" data-target="10000">0</h3><p>Happy Customers</p></div>
+        <div class="stat"><h3 class="counter" data-target="500">0</h3><p>Monthly Services</p></div>
+        <div class="stat"><h3 class="counter" data-target="100">0</h3><p>Vehicle Models</p></div>
+        <div class="stat"><h3>100%</h3><p>Trusted TVS Dealer</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VEHICLES ============ -->
+<section id="vehicles" class="section vehicles">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">Featured Vehicles</span>
+      <h2>Engineered for <span class="grad">Every Journey</span></h2>
+      <p>Explore the latest TVS lineup — performance, style and sustainability in every ride.</p>
+    </div>
+
+    <div class="swiper vehicleSwiper">
+      <div class="swiper-wrapper" id="vehicleGrid"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section why">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">Why Choose Us</span>
+      <h2>A Premium <span class="grad">TVS Experience</span></h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card glass" data-aos="fade-up"><i class="lucide lucide-shield-check"></i><h3>Genuine TVS Parts</h3><p>100% authentic spares directly from TVS Motor Company.</p></div>
+      <div class="why-card glass" data-aos="fade-up" data-aos-delay="100"><i class="lucide lucide-wrench"></i><h3>Certified Technicians</h3><p>Factory-trained experts for flawless service.</p></div>
+      <div class="why-card glass" data-aos="fade-up" data-aos-delay="200"><i class="lucide lucide-zap"></i><h3>Fast Service</h3><p>Quick turnaround without compromising quality.</p></div>
+      <div class="why-card glass" data-aos="fade-up" data-aos-delay="300"><i class="lucide lucide-badge-indian-rupee"></i><h3>Affordable Pricing</h3><p>Transparent rates with best-in-class finance options.</p></div>
+      <div class="why-card glass" data-aos="fade-up" data-aos-delay="400"><i class="lucide lucide-headphones"></i><h3>Customer Support</h3><p>Friendly support team available 7 days a week.</p></div>
+      <div class="why-card glass" data-aos="fade-up" data-aos-delay="500"><i class="lucide lucide-rocket"></i><h3>Latest Models</h3><p>Always stocked with the freshest TVS lineup.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Racing ============ -->
+<section id="about" class="section about">
+  <div class="container grid-2">
+    <div class="about-copy" data-aos="fade-left">
+      <span class="eyebrow">Racing DNA</span>
+      <h2>Innovation That <span class="grad">Defines Limits.</span></h2>
+      <!-- <h3>SmartXonnect</h3><p>Advanced Bluetooth connectivity with navigation assist and race telemetry directly on your dashboard.</p>
+      <h3>RT-FI Technology</h3><p>Race Tuned Fuel Injection for consistent power delivery and superior fuel efficiency in all conditions.</p>
+      <h3>Slipper Clutch</h3><p>Precision downshifts and enhanced stability during aggressive cornering on the track.</p> -->
+<div class="feature-list">
+
+  <div class="feature-card">
+    <div class="feature-icon">
+      <i class="bi bi-phone"></i>
+    </div>
+
+    <div class="feature-text">
+      <h3>SmartXonnect</h3>
+      <p>
+        Advanced Bluetooth connectivity with navigation assist and race telemetry directly on your dashboard.
+      </p>
+    </div>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon">
+      <i class="bi bi-speedometer2"></i>
+    </div>
+
+    <div class="feature-text">
+      <h3>RT-FI Technology</h3>
+      <p>
+        Race Tuned Fuel Injection for consistent power delivery and superior fuel efficiency in all conditions.
+      </p>
+    </div>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon">
+      <i class="bi bi-shield-check"></i>
+    </div>
+
+    <div class="feature-text">
+      <h3>Slipper Clutch</h3>
+      <p>
+        Precision downshifts and enhanced stability during aggressive cornering on the track.
+      </p>
+    </div>
+  </div>
+
+</div>
+    </div>
+    <div class="about-media" data-aos="fade-right">
+      <div class="about-img">
+        <!-- Replace with showroom image -->
+        <img loading="lazy" src="images/bogy/racing.png" alt="TVS Showroom" />
+      </div>
+      <div class="about-badge glass">
+        <strong>40+</strong>
+        <span>Year Of Racing Glory</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox"><span class="lb-close">&times;</span><img id="lbImg" alt=""/></div>
+
+<!-- ============ REVIEWS ============ -->
+<!-- <section id="reviews" class="section reviews">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">Customer Reviews</span>
+      <h2>Loved by <span class="grad">Real Riders</span></h2>
+      <p>Authentic feedback from our valued customers.</p>
+    </div>
+
+    <div class="review-wrap glass" data-aos="fade-up">
+      <script type="text/javascript" src="https://grwapi.net/widget.min.js" async></script>
+      <div class="review-widget_net" data-uuid="c84f06ee-b96c-4c76-b4a5-4daf7bb17883" data-template="2" data-lang="en" data-theme="light"></div>
+    </div>
+  </div>
+</section> -->
+<section id="reviews" class="section reviews">
+  <div class="container grid-2">
+
+    <!-- LEFT CONTENT -->
+    <div class="reviews-copy" data-aos="fade-right">
+      <span class="eyebrow">Customer Reviews</span>
+
+      <h2>
+        Loved by <span class="grad">Real Riders</span>
+      </h2>
+
+      <p>
+        Thousands of riders trust Chetak Automobiles LLP for premium TVS sales,
+        service, support, and a world-class ownership experience.
+      </p>
+
+      <div class="review-stats">
+
+        <div class="review-stat glass">
+          <h3>4.3★</h3>
+          <p>Google Rating</p>
+        </div>
+
+        <div class="review-stat glass">
+          <h3>10K+</h3>
+          <p>Happy Riders</p>
+        </div>
+
+        <div class="review-stat glass">
+          <h3>20+</h3>
+          <p>Years Trust</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT REVIEW WIDGET -->
+    <div class="review-wrap glass" data-aos="fade-left">
+
+      <script
+        type="text/javascript"
+        src="https://grwapi.net/widget.min.js"
+        async>
+      </script>
+
+      <div
+        class="review-widget_net"
+        data-uuid="c84f06ee-b96c-4c76-b4a5-4daf7bb17883"
+        data-template="2"
+        data-lang="en"
+        data-theme="light">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="eyebrow">Get in Touch</span>
+      <h2>Visit Our <span class="grad">Showroom</span></h2>
+    </div>
+
+    <div class="contact-grid">
+      <aside class="contact-info glass" data-aos="fade-right">
+        <h3>Chetak Automobiles LLP</h3>
+        <p class="muted">Authorized TVS Two Wheeler Showroom</p>
+
+        <div class="info-block">
+          <h4><i class="lucide lucide-store"></i> Showroom</h4>
+          <a href="tel:9228009191">+91 92280 09191</a>
+          <a href="tel:9998988845">+91 99989 88845 - 48</a>
+        </div>
+
+        <div class="info-block">
+          <h4><i class="lucide lucide-wrench"></i> Workshop</h4>
+          <a href="tel:9228001919">+91 92280 01919</a>
+          <a href="tel:9081233991">+91 90812 33991 - 96</a>
+        </div>
+
+        <div class="info-block">
+          <h4><i class="lucide lucide-mail"></i> Email</h4>
+          <a href="mailto:Chetaktvs@gmail.com">Chetaktvs@gmail.com</a>
+        </div>
+      </aside>
+
+      <div class="form-tabs-wrap" data-aos="fade-left">
+        <div class="tabs">
+          <button class="tab active" data-tab="inquiry">Inquiry</button>
+          <button class="tab" data-tab="complaint">Complaint</button>
+        </div>
+
+        <!-- INQUIRY FORM -->
+        <form id="inquiryForm" class="pro-form active" data-form="inquiry">
+
+          <div class="field">
+            <input type="text" id="name" required />
+            <label>Full Name</label>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <input type="tel" id="phone" required pattern="[0-9 +-]{7,}" />
+              <label>Phone</label>
+            </div>
+
+            <div class="field">
+              <input type="email" id="email" required />
+              <label>Email</label>
+            </div>
+          </div>
+
+          <div class="field">
+            <select id="vehicle" required>
+              <option value=""></option>
+              <option>Apache Series</option>
+              <option>Raider</option>
+              <option>Jupiter</option>
+              <option>Ntorq</option>
+              <option>iQube Electric</option>
+              <option>Ronin</option>
+              <option>Sport</option>
+            </select>
+
+            <label>Interested Vehicle</label>
+          </div>
+
+          <div class="field">
+            <textarea id="message" rows="4" required></textarea>
+            <label>Message</label>
+          </div>
+
+          <button class="btn btn-primary ripple" type="submit">
+            Send Inquiry
+          </button>
+
+        </form>
+
+        <!-- COMPLAINT FORM -->
+        <form id="complaintForm" class="pro-form" data-form="complaint">
+
+          <div class="field">
+            <input type="text" id="c_name" required />
+            <label>Full Name</label>
+          </div>
+
+          <div class="row">
+
+            <div class="field">
+              <input type="tel" id="c_phone" required />
+              <label>Phone</label>
+            </div>
+
+            <div class="field">
+              <input type="text" id="c_vehicle_number" required />
+              <label>Vehicle Number</label>
+            </div>
+
+          </div>
+
+          <div class="field">
+
+            <select id="c_complaint_type" required>
+              <option value=""></option>
+              <option>Service Related</option>
+              <option>Spare Parts</option>
+              <option>Sales Experience</option>
+              <option>Billing</option>
+              <option>Other</option>
+            </select>
+
+            <label>Complaint Type</label>
+
+          </div>
+
+          <div class="field">
+            <textarea id="c_message" rows="4" required></textarea>
+            <label>Describe Your Complaint</label>
+          </div>
+
+          <button class="btn btn-primary ripple" type="submit">
+            Submit Complaint
+          </button>
+
+        </form>         
+        <!-- <form id="complaintForm" class="pro-form" data-form="complaint" novalidate>
+          <div class="field"><input type="text" name="name" required /><label>Full Name</label></div>
+          <div class="row">
+            <div class="field"><input type="tel" name="phone" required /><label>Phone</label></div>
+            <div class="field"><input type="text" name="vehicle_number" required /><label>Vehicle Number</label></div>
+          </div>
+          <div class="field">
+            <select name="complaint_type" required>
+              <option value=""></option>
+              <option>Service Related</option>
+              <option>Spare Parts</option>
+              <option>Sales Experience</option>
+              <option>Billing</option>
+              <option>Other</option>
+            </select>
+            <label>Complaint Type</label>
+          </div>
+          <div class="field"><textarea name="message" rows="4" required></textarea><label>Describe Your Complaint</label></div>
+          <button class="btn btn-primary ripple" type="submit">Submit Complaint</button>
+          <p class="form-status"></p>
+        </form> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="brand">
+        <!-- <span class="brand-mark">C</span> -->
+        <img src="images/logo/tvs-logo.png" alt="Chetak Automobiles Logo" class="brand-logo">
+        <span class="brand-text">Chetak <em>Automobiles LLP</em></span>
+      </a>
+      <p class="muted" style="margin-top:14px">Authorized TVS Motor dealer delivering a premium two-wheeler ownership experience — sales, service & genuine spares.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#about">About</a>
+      <a href="#vehicles">Vehicles</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:9228009191">+91 92280 09191</a>
+      <a href="mailto:Chetaktvs@gmail.com">Chetaktvs@gmail.com</a>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© <span id="yr"></span> Chetak Automobiles LLP. All rights reserved.</div>
+</footer>
+
+<button id="toTop" class="to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- EmailJS (optional, see script.js for setup) -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+<script>
+document.getElementById("inquiryForm").addEventListener("submit", function(e) {
+
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const email = document.getElementById("email").value;
+  const vehicle = document.getElementById("vehicle").value;
+  const message = document.getElementById("message").value;
+
+  const subject = "New TVS Inquiry";
+
+  const body =
+`New Inquiry Received
+
+Full Name: ${name}
+
+Phone: ${phone}
+
+Email: ${email}
+
+Interested Vehicle: ${vehicle}
+
+Message:
+${message}`;
+
+  window.location.href =
+`mailto:Chetaktvs@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+});
+</script>
+<script>
+document.getElementById("complaintForm").addEventListener("submit", function(e) {
+
+  e.preventDefault();
+
+  const name = document.getElementById("c_name").value;
+  const phone = document.getElementById("c_phone").value;
+  const vehicleNumber = document.getElementById("c_vehicle_number").value;
+  const complaintType = document.getElementById("c_complaint_type").value;
+  const message = document.getElementById("c_message").value;
+
+  const subject = "New Customer Complaint";
+
+  const body =
+`New Complaint Received
+
+Full Name: ${name}
+
+Phone: ${phone}
+
+Vehicle Number: ${vehicleNumber}
+
+Complaint Type: ${complaintType}
+
+Complaint Details:
+${message}`;
+
+  window.location.href =
+`mailto:Complain.tvsmotors@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+});
+</script>
+</body>
+</html>
